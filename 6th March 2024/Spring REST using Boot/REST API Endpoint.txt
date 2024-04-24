@@ -1,0 +1,21 @@
+Get- http://localhost:8082/products/
+Get- http://localhost:8082/products/1
+
+
+Post-http://localhost:8082/products/save
+
+{
+"name":"AC",
+"price": "50000"
+}
+
+
+Put-  http://localhost:8082/products/2
+
+{
+"name":"Fridge",
+"price": "40000"
+}
+
+
+Delete-http://localhost:8082/products/5
